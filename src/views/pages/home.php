@@ -15,8 +15,15 @@
     <td><?=$usuario['nome'];?></td>
     <td><?=$usuario['email'];?></td>
     <td>
-        <a href="<?=$base;?>/usuario/<?=$usuario['id'];?>/editar">[EDITAR]</a>
-        <a href="<?=$base;?>/usuario/<?=$usuario['id'];?>/excluir" onclick="return confirm('Está Certo disso')">[EXCLUIR]</a>
+        <a href="<?=$base;?>/usuario/<?=$usuario['id'];?>/editar">
+
+        <img src="<?=$base;?>/assets/images/document.png" alt="">
+            
+        </a>
+        <a href="<?=$base;?>/usuario/<?=$usuario['id'];?>/excluir" onclick="return confirm('Está Certo disso')">
+            
+        <img src="<?=$base;?>/assets/images/trash.png" alt="">
+         </a>
     </td>
 </tr>
 
